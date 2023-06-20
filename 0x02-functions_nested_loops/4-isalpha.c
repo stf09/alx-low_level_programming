@@ -2,7 +2,7 @@
 
 /**
  * _isalpha - Check Holberton
- * An input character
+ * @c: An input characteer
  * Description: function returns 1 if the character is a
  * letter, lowercase or uppercase.
  * Return: 1 or 0 in otherwise.

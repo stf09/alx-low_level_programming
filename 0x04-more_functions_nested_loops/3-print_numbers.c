@@ -1,6 +1,7 @@
-#include <unistd.h>
 #include "main.h"
+#include <stdio.h>
 
+/*  prototype */
 void print_numbers(void);
 
 /**
@@ -12,8 +13,9 @@ void print_numbers(void);
 void print_numbers(void)
 {
 
-  	char a = '0';
+        int a = '0';
 	for(; a <= '9'; a++)
-		_putchar(a);
-	_putchar('\n');
+		/* Usage of _putchar() */
+		putchar(a);
+ 	putchar('\n');
 }

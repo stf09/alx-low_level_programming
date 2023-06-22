@@ -13,9 +13,10 @@ void print_numbers(void);
 void print_numbers(void)
 {
 
-        int a = '0';
-	for(; a <= '9'; a++)
-		/* Usage of _putchar() */
+	int a = '0';
+
+	for (; a <= '9'; a++)
 		putchar(a);
- 	putchar('\n');
+
+	putchar('\n');
 }

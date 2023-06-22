@@ -11,7 +11,7 @@ void print_square(int size)
 	{
 		putchar('\n');
 	}
-       	else
+	else
 	{
 		int i, j;
 

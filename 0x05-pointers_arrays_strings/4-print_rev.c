@@ -20,7 +20,7 @@ void print_rev(char *s)
 		i++;
 	}
 
-	for (a = i; a > 0; a--)
+	for (a = i; a >= 0; a--)
 	{
 		printf("%c", s[a]);
 	}

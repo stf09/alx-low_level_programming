@@ -4,7 +4,7 @@
 
 /**
  * rev_string - reverses a string.
- * @s - An input character
+ * @s:  An input character
  *
  * Return: None
  */

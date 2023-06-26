@@ -7,7 +7,7 @@
  * and in new line
  *
  * @s: An input string
- * Return: reversed string
+ * Return: ing
  */
 
 void print_rev(char *s)
@@ -22,9 +22,9 @@ void print_rev(char *s)
 
 	for (a = i; a >= 0; a--)
 	{
-		printf("%c", s[a]);
+		putchar(s[a]);
 	}
-	printf("\n");
+	putchar('\n');
 }
 
 

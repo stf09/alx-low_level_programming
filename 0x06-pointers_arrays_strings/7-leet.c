@@ -1,28 +1,30 @@
 #include "main.h"
-
+#include <stdio.h>
+#include <string.h>
+#include <stdio.h>
+#include <ctype.h>
 /**
- * leet - encodes a string in 1337
- * @s: string to be encoded
- *
- * Return: the resulting string;
+ * leet - check the code for Holberton School students.
+ *@n : variable
+ * Return: return
  */
-char *leet(char *s)
+
+char *leet(char *n)
 {
-	int i, j;
+int i;
+int a;
+char b[11] = "aAeEoOtTlL";
+char c[11] = "4433007711";
 
-	char *a = "aAeEoOtTlL";
-	char *b = "4433007711";
-
-	for (i = 0; s[i] != '\0'; i++)
-	{
-		for (j = 0; j < 10; j++)
-		{
-			if (s[i] == a[j])
-			{
-				s[i] = b[j];
-			}
-		}
-	}
-
-	return (s);
+for (i = 0; n[i] != '\0'; i++)
+{
+for (a = 0; a <= 9; a++)
+{
+if (b[a] == n[i])
+{
+n[i] = c[a];
+}
+}
+}
+return (n);
 }

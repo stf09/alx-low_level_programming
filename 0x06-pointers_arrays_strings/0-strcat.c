@@ -14,9 +14,7 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int l = strlen(src);
-	int n = strlen(dest);
-	char *res = malloc(n + l + 1);
+	char *res = malloc(14);
 
 	strcpy(res, src);
 	strcat(res, dest);

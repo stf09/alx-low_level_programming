@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strcat - check the code for Holberton School students.
+ * _strcat - check the code.
  *@dest : variable
  *@src : variable
  * Return: Concatinated string.

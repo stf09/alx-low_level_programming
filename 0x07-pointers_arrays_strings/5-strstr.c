@@ -4,7 +4,7 @@
 /**
  * _strstr -  locates a substring.
  * @haystack: string
- * @neddle: substring
+ * @needle: substring
  *
  * Return: the substring if it's in the string.
  */

@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * 1-memcpy.c - copies memory of data
+ * _memcpy - copies memory of data
  * @dest: dest
  * @src: source
  * @n: unsigned int
@@ -19,5 +19,5 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 		dest[i] = src[i];
 	}
 
-	return (dest);	
+	return (dest);
 }

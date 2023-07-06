@@ -1,5 +1,4 @@
 #include "main.h"
-#include <math.h>
 
 /**
  * _pow_recursion - raises the value of x to the 

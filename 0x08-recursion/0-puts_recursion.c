@@ -5,7 +5,7 @@
  * _puts_recursion - prints a string, followed by a new line.
  * @s: An input character
  *
- * Return: none
+ * Return: None
  */
 
 

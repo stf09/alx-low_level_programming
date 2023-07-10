@@ -11,13 +11,19 @@
 
 char *_strdup(char *str)
 {
+
 	char *str1;
 	char *str2;
+	
+	if (str == NULL)
+	{
+		return (NULL);
+	}
 
 	str1 = str;
 	str2 = strdup(str1);
 
-	if ((str2 == NULL) || (str == NULL))
+	if (str2 == NULL)
 	{
 		return (NULL);
 	}

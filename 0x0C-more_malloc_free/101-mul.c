@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <string.h>
 #include <stdio.h>
 #include "main.h"
 
@@ -92,7 +93,7 @@ int main(int argc, char *argv[])
 			putchar(result[i] + '0');
 	}
 	if (!a)
-		_putchar('0');
+		putchar('0');
 	putchar('\n');
 	free(result);
 	return (0);

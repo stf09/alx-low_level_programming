@@ -4,7 +4,7 @@
  * delete_nodeint_at_index - deletes the node at index
  * @head: pointer
  * @index: index of the node to be deleted
- * Retunr: if it succeeded, -1 if it failed
+ * Return: if it succeeded, -1 if it failed
  */
 
 int delete_nodeint_at_index(listint_t **head, unsigned int index)

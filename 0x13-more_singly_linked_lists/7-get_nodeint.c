@@ -1,29 +1,21 @@
 #include "lists.h"
-
 /**
- * get_nodeint_at_index - searches for the ninth node.
- * @head: pointer to struct
- * @index: the index of the node.
- * Return: The ninth node or NULL if doesn't exist.
- */
-
+  * get_nodeint_at_index - gets the nth node of the list
+  * @head: head of the list
+  * @index: which node to stop at
+  * Return: pointer to the nth node
+  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
-	listint_t *nw;
+	unsigned int i;
 
-	if ((head) == NULL)
+	i = 0;
+	while (i < index)
 	{
-		return (NULL);
-	}
-	while (head)
-	{
+		if (head->next == NULL)
+			return (NULL);
 		head = head->next;
-		index++;
-		if (index == 9)
-		{
-			break;
-		}
+		i++;
 	}
-	nw = head;
-	return (nw);
+	return (head);
 }
